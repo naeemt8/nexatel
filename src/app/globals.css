@@ -1,1 +1,40 @@
 @import "tailwindcss";
+
+@theme{
+    --color-bg1: rgb(38, 50, 56);
+    --color-bg2: rgba(69, 90, 100, 0.8);
+    --color-primary: rgb(118, 255, 3);
+    --color-secondary: rgb(24, 255, 255);
+    --color-border: rgb(96, 125, 139);
+    --font-main: "MyFont", sans-serif;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("/fonts/MyFont/Vazir-Thin.woff2") format("woff2");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("/fonts/MyFont/Vazir-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("/fonts/MyFont/Vazir.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("/fonts/MyFont/Vazir-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("/fonts/MyFont/Vazir-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
