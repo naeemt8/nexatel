@@ -1,6 +1,7 @@
 'use client'
 import { useState } from "react"
 import HambergerMenu from "./HamburgerMenu"
+import Link from "next/link";
 
 export default function Navbar(){
     
@@ -8,7 +9,7 @@ export default function Navbar(){
 
     return(
         <>
-            <nav className="fixed top-4 left-1/2 z-50 w-[calc(100%-1rem)] lg:w-[calc(100%-2rem)] max-w-7xl -translate-x-1/2 rounded-2xl border-2 border-border bg-bg2 px-6 py-0 lg:py-2 shadow-lg backdrop-blur-md">
+            <nav className="fixed top-4 left-1/2 z-50 w-[95%] lg:w-[90%] -translate-x-1/2 rounded-2xl border-2 border-border bg-bg2 px-6 py-0 lg:py-2 shadow-md shadow-shadow backdrop-blur-md">
                 <div className="relative flex min-h-14 items-center justify-between">
 
                     {/* Hamburger - Mobile */}
@@ -43,11 +44,11 @@ export default function Navbar(){
 
                     {/* Desktop Menu */}
                     <ul className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-8 text-sm font-medium lg:flex">
-                        <li><a href="#" className="transition hover:text-primary">صفحه اصلی</a></li>
-                        <li><a href="#" className="transition hover:text-primary">اینترنت</a></li>
-                        <li><a href="#" className="transition hover:text-primary">مکالمه</a></li>
-                        <li><a href="#" className="transition hover:text-primary">پیامک</a></li>
-                        <li><a href="#" className="transition hover:text-primary">پشتیبانی</a></li>
+                        <li><Link href="/" className="transition hover:text-primary">صفحه اصلی</Link></li>
+                        <li><Link href="/packages?type=internet" className="transition hover:text-primary">اینترنت</Link></li>
+                        <li><Link href="/packages?type=call" className="transition hover:text-primary">مکالمه</Link></li>
+                        <li><Link href="/packages?type=sms" className="transition hover:text-primary">پیامک</Link></li>
+                        <li><Link href="/support" className="transition hover:text-primary">پشتیبانی</Link></li>
                     </ul>
 
                     {/* Logo */}
@@ -57,7 +58,7 @@ export default function Navbar(){
                     {/* Login - Desktop */}
                     <button
                         type="button"
-                        className="hidden justify-self-end rounded-xl border-2 border-bg1 bg-primary px-5 py-2.5 text-sm font-bold text-bg1 transition hover:scale-105 hover:shadow-lg lg:block"
+                        className="hidden justify-self-end rounded-xl border-3 border-border-green bg-primary px-5 py-2.5 text-sm font-bold text-bg1 transition hover:scale-105 hover:shadow-lg lg:block"
                         >
                         ورود / ثبت نام
                     </button>
@@ -66,7 +67,7 @@ export default function Navbar(){
                     <button
                         type="button"
                         aria-label="ورود یا ثبت نام"
-                        className="flex h-10 w-10 items-center justify-center justify-self-end rounded-xl border-2 border-bg1 bg-primary text-bg1 transition hover:scale-105 lg:hidden"
+                        className="flex h-10 w-10 items-center justify-center justify-self-end rounded-xl border-3 border-border-green bg-primary text-bg1 transition hover:scale-105 lg:hidden"
                         >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"

@@ -6,6 +6,9 @@
     --color-primary: rgb(118, 255, 3);
     --color-secondary: rgb(24, 255, 255);
     --color-border: rgb(96, 125, 139);
+    --color-shadow: rgb(33, 33, 33);
+    --color-border-green: rgb(104, 159, 56);
+    --color-border-blue: rgb(0, 188, 212);
     --font-main: "MyFont", sans-serif;
 }
 

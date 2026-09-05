@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HambergerMenu({ isOpen }: { isOpen: boolean }) {
     return(
         <>
@@ -10,33 +12,33 @@ export default function HambergerMenu({ isOpen }: { isOpen: boolean }) {
             >
                 <ul className="flex flex-row items-center justify-around gap-2 text-xs min-[460px]:text-sm font-medium">
                     <li>
-                        <a href="#" className="block transition hover:text-primary">
+                        <Link href="/" className="block transition hover:text-primary">
                             صفحه اصلی
-                        </a>
+                        </Link>
                     </li>
 
                     <li>
-                        <a href="#" className="block transition hover:text-primary">
+                        <Link href="/packages?type=internet" className="block transition hover:text-primary">
                             اینترنت
-                        </a>
+                        </Link>
                     </li>
 
                     <li>
-                        <a href="#" className="block transition hover:text-primary">
+                        <Link href="/packages?type=call" className="block transition hover:text-primary">
                             مکالمه
-                        </a>
+                        </Link>
                     </li>
 
                     <li>
-                        <a href="#" className="block transition hover:text-primary">
+                        <Link href="/packages?type=sms" className="block transition hover:text-primary">
                             پیامک
-                        </a>
+                        </Link>
                     </li>
 
                     <li>
-                        <a href="#" className="block transition hover:text-primary">
+                        <Link href="/support" className="block transition hover:text-primary">
                             پشتیبانی
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>

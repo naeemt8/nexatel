@@ -5,7 +5,7 @@ export default function Header(){
     return(
         <>
             <Navbar />
-            <section className="mx-auto mt-28 flex w-[95%] max-w-7xl flex-col overflow-hidden lg:mt-32 lg:w-[90%] md:flex-row">
+            <section className="mx-auto mt-28 flex w-[95%] flex-col overflow-hidden lg:mt-32 lg:w-[90%] md:flex-row">
                 
                 {/* Image */}
                 <div className="relative flex w-full items-center justify-center lg:w-1/2">
@@ -32,7 +32,7 @@ export default function Header(){
 
                     <button
                         type="button"
-                        className="mt-12 rounded-xl bg-primary px-7 py-3.5 font-main text-sm font-bold text-bg1 transition duration-300 hover:-translate-y-1 hover:shadow-lg lg:px-9 lg:py-4 lg:text-base"
+                        className="mt-12 rounded-2xl border-3 border-border-green bg-primary px-7 py-3.5 font-main text-sm font-bold text-bg1 transition duration-300 hover:-translate-y-1 hover:shadow-lg lg:px-9 lg:py-4 lg:text-base"
                     >
                         خرید بسته
                     </button>
