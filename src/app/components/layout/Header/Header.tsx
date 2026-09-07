@@ -10,7 +10,7 @@ export default function Header(){
                 {/* Image */}
                 <div className="relative flex w-full items-center justify-center lg:w-1/2">
                     <Image
-                        src="/images/hero-phone.png"
+                        src="/nexatel/images/hero-phone.png"
                         alt="اینترنت پرسرعت"
                         width={600}
                         height={600}

@@ -14,30 +14,30 @@
 
 @font-face {
   font-family: "MyFont";
-  src: url("/fonts/MyFont/Vazir-Thin.woff2") format("woff2");
+  src: url("/nexatel/fonts/MyFont/Vazir-Thin.woff2") format("woff2");
   font-weight: 100;
 }
 
 @font-face {
   font-family: "MyFont";
-  src: url("/fonts/MyFont/Vazir-Light.woff2") format("woff2");
+  src: url("/nexatel/fonts/MyFont/Vazir-Light.woff2") format("woff2");
   font-weight: 300;
 }
 
 @font-face {
   font-family: "MyFont";
-  src: url("/fonts/MyFont/Vazir.woff2") format("woff2");
+  src: url("/nexatel/fonts/MyFont/Vazir.woff2") format("woff2");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "MyFont";
-  src: url("/fonts/MyFont/Vazir-Medium.woff2") format("woff2");
+  src: url("/nexatel/fonts/MyFont/Vazir-Medium.woff2") format("woff2");
   font-weight: 500;
 }
 
 @font-face {
   font-family: "MyFont";
-  src: url("/fonts/MyFont/Vazir-Bold.woff2") format("woff2");
+  src: url("/nexatel/fonts/MyFont/Vazir-Bold.woff2") format("woff2");
   font-weight: 700;
 }
