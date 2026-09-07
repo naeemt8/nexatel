@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
   output: "export",
   trailingSlash: true,
+  basePath: "/nexatel",
   images: {
     unoptimized: true,
   },
